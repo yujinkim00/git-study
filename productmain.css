@@ -1,0 +1,55 @@
+
+        #producttable {
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        #pro-table { 
+            width : auto;
+            height :100%;
+            font-size: medium;
+            }
+
+        #pro-tbody input {
+            font-size: large;
+        }
+
+        #pro-tfoot > tr > td {
+            text-align: end;
+            border : none;
+        }
+
+        #pro-tfoot > tr > td > button{
+            font-size: large;
+
+        }
+
+        th,td {
+            border : 1px solid #141414;
+            border-radius: 5px;
+        }
+
+        input[type="text"],
+        input[type="number"]
+         {
+            box-sizing : border-box;
+            width :100%;
+            border : none;
+            outline : none;
+            text-align : left;
+        }
+
+        textarea {
+            border: none;
+            width : 99%;
+            height : 99%;
+            resize: none;
+            font-size: large;
+        }
+         
+        select {
+            border : none;
+            font-size: large;
+        }
